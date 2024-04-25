@@ -12,8 +12,6 @@
 #include "connection.h"
 
 #define UNUSED(x) (void)(x)
-//#define C_OK 1
-//#define C_ERR 0
 
 
 int process_recv_event(connection *conn, memory_entry *entry);
